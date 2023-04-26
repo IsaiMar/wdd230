@@ -1,5 +1,12 @@
 
-
-section{
-    color: red;
+@media (min-width: 640px) {
+    body {
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
 }
+  
