@@ -1,6 +1,8 @@
 
 @media (min-width: 640px) {
-    body {
+    main {
+        display:grid;
+        grid-column: 1/3;
     }
     nav ul {
         display: flex;
