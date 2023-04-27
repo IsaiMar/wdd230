@@ -10,5 +10,13 @@
     nav ul li {
         flex: 1 1 100%;
     }
+    #act{
+        grid-column-start: 1;
+        grid-column-end: 2 ;
+    }
+    #info{
+        grid-column-start: 2;
+        grid-column-end: 3 ;
+    }
 }
   
