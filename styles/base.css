@@ -32,7 +32,8 @@ header {
 }
 	
 img#me{
-    height:300px;
+    height:auto;
+    width: 300px;
     padding:20px
 }
 body{
