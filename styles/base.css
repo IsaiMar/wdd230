@@ -31,7 +31,7 @@ header {
     color:#e0e0e0;
 }
 #me{
-    height:200px;
+    height:300px;
     padding:20px
 }
 body{
@@ -39,7 +39,6 @@ body{
     font-family: 'Hind Madurai', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
-    
 }
 nav ul {
     list-style-type: none;
@@ -58,6 +57,7 @@ nav{
     background-color: #2c5d63;
     margin: 0 auto;
     max-width: 800px;
+    font-size: 25px;
 }
 main{
     display: inline grid;
@@ -73,6 +73,7 @@ main h2{
     padding: 30px;
     grid-column-start:1;
     grid-column-end:3;
+    font-size:35px;
 }
 .card{
     display: grid;
