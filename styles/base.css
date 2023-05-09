@@ -30,7 +30,8 @@ header {
 	border: 1px solid rgba(0, 0, 0, 0.1);
     color:#e0e0e0;
 }
-#me{
+	
+img#me{
     height:300px;
     padding:20px
 }
