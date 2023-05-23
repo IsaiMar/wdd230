@@ -10,10 +10,10 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://isaimar.github.io/wdd230/" />
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/0d/Tampico%2C_Centro_Historico_%2812059306706%29.jpg" />    
-    <title>Isai Mar - WDD 230 - Responsive Images</title>
+    <title>Isai Mar - WDD 230 - Web Frontend Development</title>
     <link rel="icon" href="images/favico_palmtree.ico">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <div id="mode">
@@ -32,15 +32,12 @@
             <li><a href="#">Survey</a></li>
         </ul>
     </nav>
+    <h1>📖 Book of Mormon - Top 10</h1>
     <main>
-        <h2>WDD 230: Responsive Images</h2>
-        <div class="hero">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
-                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
-                <img src="images/hero-large.webp" alt="Tampico Temple" width="1300" height="750">
-            </picture>
-        </div>
+        <label for="favchap">Enter Book and Chapter: </label>
+        <input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
     </main>
     <footer>
         <p id="year">  <span>&#x1f1f2;&#x1f1fd;</span></p>
@@ -49,5 +46,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger_menu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/bom.js"></script>
 </body>
 </html>
