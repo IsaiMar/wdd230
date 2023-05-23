@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p {
+    padding: 50px
+}
+img{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    animation: fade 10s;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
