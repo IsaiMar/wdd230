@@ -1,0 +1,151 @@
+/* --steel-blue: #2d7dd2ff;
+--yellow-green: #97cc04ff;
+--saffron: #eeb902ff;
+--persimmon: #f45d01ff;
+--davys-gray: #474647ff;
+
+--gunmetal: #182825ff;
+--azul: #016fb9ff;
+--pacific-cyan: #22aed1ff;
+--air-force-blue: #6d8ea0ff;
+--khaki: #afa98dff;
+
+--dark-purple: #240115ff;
+--rusty-red: #de3c4bff;
+--electric-blue: #87f5fbff;
+--dark-purple-2: #2f131eff;
+--silver: #cec3c1ff; */
+
+/* font-family: 'Hind Madurai', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Open+Sans:wght@300&family=PT+Sans&display=swap");
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+header {
+  background-color: #2d7dd2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #e0e0e0;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: "Hind Madurai", "Open Sans", "PT Sans", sans-serif;
+}
+.navigation ul {
+  list-style-type: none;
+}
+.navigation a {
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+.navigation a:hover {
+  border: 1px solid #fff;
+}
+.navigation {
+  background-color: #eeb902ff;
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 767px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+main h2 {
+  padding: 30px;
+  grid-column: 1/3;
+  font-size: 35px;
+}
+main p {
+  margin: 5%;
+  margin-top: 10px;
+}
+h1,
+h2 {
+  font-family: "Hind Madurai", sans-serif;
+}
+#colors {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+#colors p {
+  font-family: "Open Sans", sans-serif;
+  max-width: 50%;
+  margin: 10px;
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+  margin-left: 25%;
+  font-weight: bolder;
+}
+
+#color1 {
+  background-color: #2d7dd2ff;
+  grid-row: 2/3;
+}
+#color2 {
+  background-color: #97cc04ff;
+  grid-row: 3/4;
+}
+#color3 {
+  background-color: #eeb902ff;
+  grid-row: 4/5;
+}
+#color4 {
+  background-color: #f45d01ff;
+  grid-row: 5/6;
+}
+#color5 {
+  background-color: rgb(90, 90, 90);
+  grid-row: 6/7;
+}
+
+#font1 {
+  font-family: "Hind Madurai", sans-serif;
+}
+#font2 {
+  font-family: "Open Sans", sans-serif;
+}
+#font3 {
+  font-family: "PT Sans", sans-serif;
+}
+#scenarios p {
+  text-align: left;
+}
+
+footer {
+  background-color: #f45d01ff;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 4%;
+  text-align: center;
+}
