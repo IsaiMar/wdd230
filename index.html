@@ -2,14 +2,108 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>wdd230</title>
+    <meta name="author" content="Isai Mar" />
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - Isai Mar - course assignment portal"
+    />
+    <meta property="og:title" content="Isai Mar Resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isaimar.github.io/wdd230/" />
+    <meta
+      property="og:image"
+      content="https://upload.wikimedia.org/wikipedia/commons/0/0d/Tampico%2C_Centro_Historico_%2812059306706%29.jpg"
+    />
+    <title>Isai Mar - WDD 230 - Web Frontend Development Site</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="icon" href="images/favico_palmtree.ico" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
   </head>
   <body>
-    <h1>Isai Mar</h1>
-    <footer></footer>
-    <script></script>
+    <div id="mode">☑️</div>
+    <header>
+      <img id="me" src="images/Mar128_1471_.avif" alt="Me" />
+      <h1>Isai Mar</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="https://isaimar.github.io/wdd230/chamber/index.html"
+            >Chamber</a
+          >
+        </li>
+        <li><a href="#">Site Plan</a></li>
+        <li><a href="#">Survey</a></li>
+      </ul>
+    </nav>
+    <section>
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 640px)" srcset="images/hero-small.webp" />
+          <img src="images/mexico-city-temple.webp" alt="Tampico Temple" />
+        </picture>
+        <div class="herolabel">
+          <p>Mexico City Temple</p>
+        </div>
+      </div>
+    </section>
+    <main>
+      <h2>WDD 230: Web Frontend Development</h2>
+      <section class="card" id="act">
+        <h3>Learning Activities</h3>
+        <ul>
+          <li>Week 1:<a href="week01/holygrail.html"> Holygrail</a></li>
+          <li>
+            Week 2:<a href="week02/design.html"> Design Principles</a
+            ><a href="https://codepen.io/IsaiMar-the-builder/pen/XWQXKYW">
+              Responsive hamburger menu</a
+            >
+          </li>
+          <li>
+            Week 3:<a href="week03/images/landscape.webp"> WebP</a
+            ><a href="week03/lazyload.html"> Lazy Loading</a>
+          </li>
+          <li>Week 4:<a href=""></a></li>
+          <li>
+            Week 5:<a href="https://codepen.io/isaimar/pen/JjVvrLG"
+              >Pseudo-elements</a
+            ><a href="week05/new-wards-members.json"> Json</a>
+            <a href="week05/prophets.html"> Prophets</a>
+          </li>
+        </ul>
+      </section>
+      <section class="card" id="info">
+        <h3>Information</h3>
+        <p>
+          <span class="label">Number of Visits: </span
+          ><span class="visits"></span>
+        </p>
+      </section>
+      <div id="map">
+        <p>Tampico Map</p>
+        <iframe
+          id="tampico-map"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d59081.96485402561!2d-97.848891944231!3d22.254385911073857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1710478585743!5m2!1sen!2sus"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Tampico Tamaulipas"
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <p id="year"><span>&#x1f1f2;&#x1f1fd;</span></p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/localStorage.js"></script>
   </body>
-
-  
 </html>
