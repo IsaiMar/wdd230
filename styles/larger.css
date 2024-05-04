@@ -16,7 +16,6 @@
     grid-template-rows: auto auto 1fr auto;
     max-width: 70%;
     margin: 0 auto;
-    height: auto;
     /* padding: 5%; */
   }
   .navigation {
