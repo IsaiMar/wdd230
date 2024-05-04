@@ -156,10 +156,14 @@ main h3 {
 
 .card {
   color: rgb(9, 94, 125);
-  height: auto;
+  height: 400px;
   justify-items: start;
   font-size: 25px;
-  margin: 2rem;
+  margin: 1rem;
+  padding:1rem;
+  background-color: #88d5e15e;
+  border-radius: 15px;
+  border: 4px solid #105b17;
   
 }
 .card li{
@@ -170,7 +174,7 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: rgb(57, 32, 150);
+  color: rgb(37, 10, 77);
 }
 
 #map {
