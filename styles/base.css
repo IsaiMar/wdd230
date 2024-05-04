@@ -144,7 +144,7 @@ main {
 main h1 {
   padding: 3rem;
   grid-column: 1/3;
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -154,6 +154,9 @@ main h2 {
   grid-row: 2/3;
 }
 
+h3 {
+  font-size: 40px;
+}
 .card {
   color: rgb(9, 94, 125);
   height: 400px;
