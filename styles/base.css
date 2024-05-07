@@ -38,7 +38,7 @@ header {
   cursor: pointer;
 }
 
-img#me {
+img #me {
   height: auto;
   width: 300px;
   padding: 20px;
@@ -68,6 +68,11 @@ nav ul {
 .navigation a:active {
   color: #fff;
   background-color: black;
+}
+
+ a:hover,
+ a:active {
+  color: #000000;
 }
 
 .show li {
@@ -106,7 +111,6 @@ main {
 }
 .hero {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   height: 800px;
 }
 
@@ -171,9 +175,9 @@ a {
   color: #005f0d;
   text-decoration: none;
 }
-a:visited {
+/* a:visited {
   color: rgb(37, 10, 77);
-}
+} */
 
 #map {
   display: grid;
