@@ -43,3 +43,8 @@ footer {
 .right-sidebar {
   padding: 1rem;
 }
+
+.mark-complete{
+  font-size: 1px;
+  content:'';
+}
