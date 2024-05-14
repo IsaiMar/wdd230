@@ -21,7 +21,7 @@
 }
 
 header {
-  background-color: #1a2526;
+  background-color: #0e5157;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,9 +38,9 @@ header {
   cursor: pointer;
 }
 
-img #me {
+#me {
   height: auto;
-  width: 300px;
+  width: 50%;
   padding: 20px;
 }
 body {
@@ -70,8 +70,8 @@ nav ul {
   background-color: black;
 }
 
- a:hover,
- a:active {
+a:hover,
+a:active {
   color: #000000;
 }
 
@@ -108,7 +108,7 @@ main {
   grid-template-rows: auto auto 1fr auto;
   margin: 0 auto;
   height: 700px;
-}
+ }
 .hero {
   position: relative;
   height: 800px;
@@ -137,7 +137,7 @@ main {
   padding: 0.25rem;
   font-weight: 700;
   font-size: 2rem;
-  font-family: "Great Vibes", serif;
+  font-family: "Great Vibes", serif; */
 }
 
 main h1 {
