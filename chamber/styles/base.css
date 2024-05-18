@@ -75,12 +75,17 @@ a:active {
   color: #000000;
 }
 
-.show li {
-  display: block;
+
+
+#menu::before {
+  content: "☰";
 }
 
-#menu.show::before {
-  content: "X";
+#menu.open::before {
+  content: "x";
+}
+.open li {
+  display: block;
 }
 nav {
   background-color: #474647ff;
@@ -98,9 +103,7 @@ nav {
   color: #000;
 }
 
-#menu::before {
-  content: "≡";
-}
+
 
 main {
   display: grid;
@@ -111,7 +114,8 @@ main {
 }
 #hero {
   position: relative;
-  height: 800px;
+  height: auto;
+  width: 100%;
 }
 
 #hero img {

@@ -75,13 +75,6 @@ a:active {
   color: #000000;
 }
 
-.show li {
-  display: block;
-}
-
-#menu.show::before {
-  content: "X";
-}
 nav {
   background-color: #35727a;
   margin: 0 auto;
@@ -98,8 +91,16 @@ nav {
   color: #000;
 }
 
+.open li {
+  display: block;
+}
+
 #menu::before {
-  content: "≡";
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "❎";
 }
 
 main {
