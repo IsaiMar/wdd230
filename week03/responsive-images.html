@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isai Mar">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Isai Mar - course assignment portal"">
+    <meta property="og:title" content="Isai Mar Resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isaimar.github.io/wdd230/" />
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/0/0d/Tampico%2C_Centro_Historico_%2812059306706%29.jpg" />    
+    <title>Isai Mar - WDD 230 - Responsive Images</title>
+    <link rel="icon" href="images/favico_palmtree.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <div id="mode">
+        ☑️
+    </div>
+    <header>
+        <img id="me" src="images/Mar128_1471_.avif" alt="Me">
+        <h1> Isai Mar</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Survey</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>WDD 230: Responsive Images</h2>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Tampico Temple" width="1300" height="750">
+            </picture>
+        </div>
+    </main>
+    <footer>
+        <p id="year">  <span>&#x1f1f2;&#x1f1fd;</span></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>
