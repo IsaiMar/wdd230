@@ -11,25 +11,32 @@
 
   main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: auto auto auto auto auto auto;
     max-width: 70%;
     margin: 0 auto;
     /* padding: 5%; */
   }
+
+  #logo{
+    height: 5rem;
+    border-radius: 360px;
+    margin:2px;
+  }
+
+
   .navigation {
     display: flex;
   }
   .navigation li {
     display: block;
-    flex: 1 1 100%;
+    flex: 1 1 100% ;
   }
   .navigation a {
     text-align: center;
   }
 
   nav {
-    /* background-color: #357179; */
     margin: 0 auto;
     max-width: 100%;
     font-size: 30px;
