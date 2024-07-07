@@ -1,0 +1,13 @@
+{
+  "family name": "Super Hero Squad",
+  "date": "4/9/2020",
+  "number of records": 1,
+  "visited": true,
+  "individual family members": [
+    {
+      "name": "Michael",
+      "gender": "Male",
+      "birthday": "12/21/2003"
+    }
+  ]
+}

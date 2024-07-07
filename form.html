@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Isai Mar" />
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - Isai Mar - course assignment portal"
+    />
+    <meta property="og:title" content="Isai Mar Web dev Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isaimar.github.io/wdd230/" />
+    <meta
+      property="og:image"
+      content="https://upload.wikimedia.org/wikipedia/commons/0/0d/Tampico%2C_Centro_Historico_%2812059306706%29.jpg"
+    />
+    <title>Isai Mar - WDD 230 - Web Frontend Development Site</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favico_palmtree.ico" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <div id="mode">☑️</div>
+    <header>
+      <img id="me" src="images/Mar128_1471_.avif" alt="Me" />
+      <h3>Isai Mar</h3>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <a href="https://isaimar.github.io/wdd230/chamber/index.html">
+          <img id="logo" src="images/logo.webp" alt="tampico logo" />
+        </a>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="https://isaimar.github.io/wdd230/chamber/index.html">
+            Chamber
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://isaimar.github.io/wdd230/week01/chamber-site-plan.html"
+          >
+            Site Plan
+          </a>
+        </li>
+        <li><a href="#">Survey</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Course Proposal Application</h1>
+
+      <form method="get" action="thanks.html" class="wf1">
+        <div id="formmessage"></div>
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label>
+            Username*:
+            <input type="text" id="username" name="uname" required />
+          </label>
+          <label>
+            Password*:
+            <input
+              type="password"
+              id="password1"
+              name="password1"
+              pattern="[a-zA-Z0-9]{8,}"
+              title="Eight or more characters"
+              required
+            />
+          </label>
+          <label>
+            Repeat Password*:
+            <input type="password" id="password2" name="password2" required />
+          </label>
+          <label>
+            Email*:
+            <input
+              type="email"
+              name="email"
+              id="email "
+              title="Please enter a valid email address"
+              placeholder="someone@byui.edu"
+              pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+              required
+            />
+          </label>
+          <label>
+            Page rating:
+            <div id="rangevalue">1</div>
+            <input
+              type="range"
+              id="rating"
+              name="rating"
+              min="1"
+              max="10"
+              value="1"
+              step="1"
+              list="rangevalues"
+            />
+          </label>
+          <datalist id="rangevalues">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+        </fieldset>
+        <!-- <fieldset>
+              <legend>Course Information
+              </legend>
+              <div>Audience</div>
+              <label><input type="radio" name="audience" value="beginner">Beginner</label>
+              <label><input type="radio" name="audience" value="intermediate">Intermediate</label>
+              <label><input type="radio" name="audience" value="advance">Advance</label>
+
+              <div>Software Nedded</div>
+              <label><input type="checkbox" name="code" value="yes">Coding</label>
+              <label><input type="checkbox" name="client" value="yes">FTP Client</label>
+              <label><input type="checkbox" name="editing" value="yes">Photo editing</label>
+              <label><input type="checkbox" name="process" value="yes">Preprocessor</label>
+
+          </fieldset>
+
+          <fieldset>
+              <legend>Funding</legend>
+              <label>Anticipated Completion Date <input type="date" name="completeDate"></label>
+              <label>Course Subject
+                  <select name="subject">
+                      <option value="">Please Select &#9662;</option>
+                      <option value="software">Software Development</option>
+                      <option value="data">Data Science</option>
+                  </select>
+              </label>
+              <label>How Many Authors <input type="number" name="authors"></label>
+          </fieldset> -->
+        <input type="submit" value="Submit Review" />
+      </form>
+    </main>
+    <footer>
+      <p id="year"><span>&#x1f1f2;&#x1f1fd;</span></p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/localStorage.js"></script>
+    <script src="scripts/password.js"></script>
+    <script src="scripts/range.js"></script>
+  </body>
+</html>
