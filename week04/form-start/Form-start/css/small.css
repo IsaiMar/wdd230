@@ -125,7 +125,7 @@ main {
 }
 
 .wf1 input:required {
-    border-right: solid 8px red;
+    border-left: solid 8px red;
 }
 
 .wf1 input:required:valid {
