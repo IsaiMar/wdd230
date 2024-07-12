@@ -55,7 +55,7 @@
   }
   #map {
     display: grid;
-    /* grid-template-columns: 1fr ; */
+    grid-template-columns: 1fr 1fr ;
     grid-template-rows: auto 1fr;
     justify-content: center;
     grid-column: 1/3;
@@ -67,5 +67,16 @@
   #tampico-map {
     width: 700px;
     height: 450px;
+  }
+  #membership {
+    margin: 2rem 0 2rem 2rem;
+    padding: 3rem;
+    appearance: none;
+  }
+  .contactform{
+    padding:100px 100px 100px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
   }
 }

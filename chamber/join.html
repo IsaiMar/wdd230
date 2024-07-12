@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Isai Mar" />
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - Isai Mar - course assignment portal"
+    />
+    <meta property="og:title" content="Isai Mar Resume" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://isaimar.github.io/wdd230/" />
+    <meta
+      property="og:image"
+      content="https://upload.wikimedia.org/wikipedia/commons/0/0d/Tampico%2C_Centro_Historico_%2812059306706%29.jpg"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="icon" href="images/favico_palmtree.ico" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <title>Tampico Chamber of Commerce</title>
+  </head>
+  <body>
+    <!-- <header>
+    </header> -->
+    <button id="menu"></button>
+    <nav>
+      <ul class="navigation">
+        <a href="https://isaimar.github.io/wdd230/chamber/index.html">
+          <img id="logo" src="images/logo.webp" alt="tampico logo" />
+        </a>
+        <li>
+          <a
+            class="link"
+            href="https://isaimar.github.io/wdd230/chamber/index.html"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="link"
+            href="https://isaimar.github.io/wdd230/chamber/discover.html"
+          >
+            Discover
+          </a>
+        </li>
+        <li>
+          <a
+            class="link"
+            href="https://isaimar.github.io/wdd230/week01/chamber-site-plan.html"
+          >
+            Site Plan
+          </a>
+        </li>
+        <li>
+          <a class="link" href="#">Survey</a>
+        </li>
+      </ul>
+    </nav>
+    <img
+      id="hero"
+      src="images/playa-miramar-opt (1).webp"
+      alt="Tampico Beach"
+    />
+    <div id="formmessage"></div>
+    <main class="contactform">
+      <form method="get" action="thankyou.html" class="wf1">
+        <fieldset>
+          <legend>Join form</legend>
+          <label>
+            First Name*:
+            <input type="text" id="fname" name="fname" required />
+          </label>
+          <label>
+            Last Name*:
+            <input type="text" id="lname" name="lname" required />
+          </label>
+          <label>
+            Title/Position:
+            <input
+              type="text"
+              id="title"
+              name="title"
+              pattern="[a-zA-Z0-9 -]{7,}"
+              title="7 or more characters"
+            />
+          </label>
+          <label>
+            Email*:
+            <input
+              type="email"
+              name="email"
+              id="email "
+              title="Please enter a valid email address"
+              placeholder="someone@gmail.com"
+              pattern="[a-zA-Z0-9._%+-]+@gmail.com$"
+              required
+            />
+          </label>
+          <label>
+            Phone*:
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="1235551234"
+              required
+            />
+          </label>
+          <label>
+            Buisness/Organization's name*: <input type="text" name="business
+            id="business" required>
+          </label>
+          <label>
+            Business/Organization's description:
+            <br />
+            <input
+              type="text area"
+              name="description"
+              id="description"
+              size="50"
+            />
+          </label>
+          <label>Membership level</label>
+          <label>
+            <input type="checkbox" name="np" value="yes" />
+            Non-Profit
+          </label>
+          <label>
+            <input type="checkbox" name="bronze" value="yes" />
+            Broze Membership
+          </label>
+          <label>
+            <input type="checkbox" name="silver" value="yes" />
+            Silver Membership
+          </label>
+          <label>
+            <input type="checkbox" name="Gold" value="yes" />
+            Gold Membership
+          </label>
+          <br />
+          <br />
+          <label>
+            Timestamp:
+            <span id="datetime"></span>
+            <input type="hidden" name="Timestamp" value="yes" />
+          </label>
+        </fieldset>
+        <input type="submit" value="Join today" />
+      </form>
+      <div id="membership">
+        <h1>Membership levels</h1>
+        <h2>Non-Profit: No membership fee required</h2>
+        <p>
+          <ul>
+            <li>Networking Opportunities: Access to networking events with local businesses and other non-profits.<br></li>
+          </ul>
+          <ul>
+            <li>Visibility: Listing in the chamber's directory as a non-profit member.<br></li>
+          </ul>
+          <ul>
+            <li>Educational Resources: Access to workshops and seminars on topics relevant to non-profits.<br></li>
+          </ul>
+          <ul>
+            <li>Advocacy Support: Opportunities to participate in advocacy efforts related to non-profit interests.<br></li>
+          </ul>
+          <br>
+        </p>
+        <h2 id="bronze">Bronze Membership:</h2>
+        <p>
+          <ul>
+            <li>Basic Benefits Package: Access to essential resources and services.<br></li>
+          </ul>
+          <ul>
+            <li>Networking Events: Invitations to regular networking events and mixers.<br></li>
+          </ul>
+          <ul>
+            <li>Member-to-Member Discounts: Access to exclusive discounts offered by other chamber members.<br></li>
+          </ul>
+          <ul>
+            <li>Newsletter Subscription: Subscription to the chamber's newsletter with updates on local business news and events.<br></li>
+          </ul>
+          <ul>
+            <li>Educational Workshops: Participation in introductory workshops on business topics like marketing, finance, and management.<br></li>
+          </ul>
+          <br>
+        </p>
+        <h2 id="silver">Silver Membership:</h2>
+        <p>
+          <ul>
+            <li>Enhanced Benefits Package: Includes all Bronze benefits plus additional perks.<br></li>
+          </ul>
+          <ul>
+            <li>Priority Networking: Priority invitations to networking events and access to exclusive networking opportunities.<br></li>
+          </ul>
+          <ul>
+            <li>Featured Listing: Enhanced listing in the chamber's directory with a detailed profile and logo.<br></li>
+          </ul>
+          <ul>
+            <li>Business Referrals: Referrals to Silver and Gold members through the chamber’s business referrals program.<br></li>
+          </ul>
+          <ul>
+            <li>Advanced Workshops: Access to advanced workshops and seminars tailored to business growth strategies.<br></li>
+          </ul>
+          <ul>
+            <li>Social Media Promotion: Promotion of business milestones and events on the chamber's social media channels.<br></li>
+          </ul>
+          <br>
+        </p>
+        <h2 id="gold">Gold Membership:</h2>
+        <p>
+          <ul>
+            <li>Premium Benefits Package: Includes all Silver benefits plus exclusive perks.<br></li>
+          </ul>
+          <ul>
+            <li>VIP Events: Invitations to VIP events, including exclusive receptions and business leader roundtables.<br></li>
+          </ul>
+          <ul>
+            <li>Personalized Business Assistance: Dedicated account manager for personalized support and assistance with chamber services.<br></li>
+          </ul>
+          <ul>
+            <li>Sponsorship Opportunities: Priority sponsorship opportunities at chamber events and programs.<br></li>
+          </ul>
+          <ul>
+            <li>Board and Committee Involvement: Eligibility for leadership roles on chamber committees or the board of directors.<br></li>
+          </ul>
+          <ul>
+            <li>Strategic Partnership: Annual strategic consultation with chamber leadership to discuss business needs and opportunities for collaboration.<br></li>
+          </ul>
+          <br>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p id="year"><span>&#x1f1f2;&#x1f1fd;</span></p>
+      <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/footer.js"></script>
+    <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/datetime.js"></script>
+  </body>
+</html>
