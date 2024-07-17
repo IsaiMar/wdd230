@@ -79,4 +79,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 1fr auto;
   }
+  #members {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    max-width: 70%;
+    margin: 0 auto;
+    /* padding: 5%; */
+  }
 }

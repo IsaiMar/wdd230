@@ -415,3 +415,24 @@ section p{
   text-align: center;
   font-size: 1.3rem;
 }
+
+#cards{
+  padding:2rem;
+}
+#cards section{
+  padding-bottom:100px;
+  margin:2rem;
+  border: solid 1px #999;
+}
+
+#cards h2{
+  margin:2rem;
+}
+
+#cards ul{
+  font-size: 1.3rem;
+}
+
+#cards li {
+  margin:0 4rem 1rem;
+}

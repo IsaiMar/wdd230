@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Empresa X",
+        "address": "Av. Juárez 123, Col. Centro, Tampico, Tamaulipas",
+        "phone": "123-456-7890",
+        "website": "http://www.empresax.com.mx",
+        "image": "empresa_x.png",
+        "membership_level": "Gold",
+        "additional_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Compañía Y",
+        "address": "Calle Hidalgo 456, Col. Reforma, Tampico, Tamaulipas",
+        "phone": "234-567-8901",
+        "website": "http://www.companiay.mx",
+        "image": "compania_y.png",
+        "membership_level": "Silver",
+        "additional_info": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      {
+        "name": "Grupo Z",
+        "address": "Blvd. Morelos 789, Col. Del Pueblo, Tampico, Tamaulipas",
+        "phone": "345-678-9012",
+        "website": "http://www.grupoz.com.mx",
+        "image": "grupo_z.png",
+        "membership_level": "Bronze",
+        "additional_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Industrias A",
+        "address": "Av. Insurgentes 987, Col. Moderna, Tampico, Tamaulipas",
+        "phone": "456-789-0123",
+        "website": "http://www.industriasa.com.mx",
+        "image": "industrias_a.png",
+        "membership_level": "Gold",
+        "additional_info": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "name": "Fabricación B",
+        "address": "Calle Zaragoza 654, Col. Obrera, Tampico, Tamaulipas",
+        "phone": "567-890-1234",
+        "website": "http://www.fabricacionb.com.mx",
+        "image": "fabricacion_b.png",
+        "membership_level": "Silver",
+        "additional_info": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      {
+        "name": "Servicios C",
+        "address": "Av. Hidalgo 321, Col. Guadalupe, Tampico, Tamaulipas",
+        "phone": "678-901-2345",
+        "website": "http://www.serviciosc.mx",
+        "image": "servicios_c.png",
+        "membership_level": "Bronze",
+        "additional_info": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "name": "Consultoría D",
+        "address": "Av. Universidad 210, Col. Universidad, Tampico, Tamaulipas",
+        "phone": "789-012-3456",
+        "website": "http://www.consultoriad.com.mx",
+        "image": "consultoria_d.png",
+        "membership_level": "Gold",
+        "additional_info": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+      }
+    ]
+  }
+  
