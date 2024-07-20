@@ -1,4 +1,4 @@
-const url = "/chamber/data/members.json"
+const url = "https://isaimar.github.io/wdd230/chamber/data/members.json"
 const cards = document.querySelector("#cards")
 
 const displayMembers = (members) => {
@@ -23,7 +23,6 @@ const displayMembers = (members) => {
 async function getMemberData(url) {
   const response = await fetch(url)
   const data = await response.json()
-  //   console.table(data.members);
   displayMembers(data.members)
 }
 
