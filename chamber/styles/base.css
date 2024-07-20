@@ -436,3 +436,16 @@ section p{
 #cards li {
   margin:0 4rem 1rem;
 }
+
+.menu {
+	margin: 5rem auto 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: rgba(187, 238, 221, 0);
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
