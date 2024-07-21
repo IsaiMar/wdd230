@@ -452,3 +452,13 @@ section p{
 	padding: 1rem;
 	font-weight: 700;
 }
+
+#join{
+  padding: 30px;
+  margin: 2rem;
+  font-size: 2rem;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: #8edc99;
+}
