@@ -1,0 +1,92 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Holygrail"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media-query"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design Principles"
+          },
+          {
+            "url": "https://codepen.io/isaimar/pen/KKGoQwE",
+            "title": "Responsive hamburger menu"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "DOM manipulation"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/images/landscape.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy Loading"
+          }
+          ,
+          {
+            "url": "week03/responsive-images.html",
+            "title": "Responsive images"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "https://codepen.io/isaimar/pen/eYaejbp",
+            "title": "Pseudo-classes"
+          },
+          {
+            "url": "week04/images/screenshot.png",
+            "title": "CSS-Combinators"
+          }
+          ,
+          {
+            "url": "week04/tablebuild.html",
+            "title": "HTML-Tables"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "https://codepen.io/isaimar/pen/JjVvrLG",
+            "title": "Pseudo-elements"
+          },
+          {
+            "url": "week05/new-wards-members.json",
+            "title": "Json"
+          },
+          {
+            "url": "week05/weather.json",
+            "title": "Weather"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "Prophets"
+          }
+        ]
+      }
+    ]
+  }
+  
