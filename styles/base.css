@@ -161,7 +161,7 @@ h3 {
 
 .card {
   color: rgb(9, 94, 125);
-  height: 400px;
+  height: auto;
   justify-items: start;
   font-size: 25px;
   margin: 1rem;
